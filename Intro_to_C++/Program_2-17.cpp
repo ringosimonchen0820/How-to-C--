@@ -1,5 +1,5 @@
 // This program demonstrate boolean variables.
-    // Boolean variables are set to either true(1) or false(0)
+//  ==> Boolean variables are set to either true(1) or false(0)
 
 
 #include <iostream>
