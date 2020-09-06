@@ -1,2 +1,2 @@
-# How-to-C++
+# How to C++
  Coding examples from C++ textbook 
