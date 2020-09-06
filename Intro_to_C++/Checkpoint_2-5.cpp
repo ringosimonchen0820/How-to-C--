@@ -9,7 +9,7 @@ int main()
     int little;
     int big;
     
-    little = 2;
+    little = 8;
     big = 2000;
 
     cout << "The little number is " << little << endl;
