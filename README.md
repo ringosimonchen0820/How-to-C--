@@ -1,2 +1,2 @@
 # How to C++
- Coding examples from C++ textbook 
+ Coding examples and practices from the textbook 
