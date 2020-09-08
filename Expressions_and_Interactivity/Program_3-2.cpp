@@ -16,4 +16,6 @@ int main()
     cin >> length >> width;
     area = length * width;
     cout << "The area of the rectangle is " << area << "." << endl;
+
+    return 0;
 }
