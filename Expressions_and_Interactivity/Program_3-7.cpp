@@ -1,4 +1,5 @@
 // This program demostrates interger overflow and underflow.
+//! When a variable is assigned a value that is too large ot too small in range for that variable's data type, the variable overflows or underflows.
 
 
 #include <iostream>
