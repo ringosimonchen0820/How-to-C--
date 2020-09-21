@@ -14,7 +14,7 @@ int main()
     cin >> num2;
     cout << "Enter the third number: ";
     cin >> num3;
-    avg = num1 + num2 + num3 / 3;   
+    avg = num1 + num2 + num3 / 3;       //! Correct way should be written as: avg = (num1 + num2 + num3) / 3
     cout << "The average is " << avg << endl;
 
     return 0;
