@@ -35,7 +35,7 @@ int main()
     }
     else
     {
-        cout << "You qualify.\n";
+        cout << "You qualify for the loan.\n";
     }  
 
     return 0;        
