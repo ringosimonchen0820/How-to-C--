@@ -8,8 +8,15 @@ int main()
 {
     // Set up variables
     int temp_i = -5;
-    int wind_speed = 5;
-    // 
+    int wind_speed;
+    
+    // header
+    cout << setw(14);
+    for (wind_speed = 5; wind_speed <= 45; wind_speed += 5)
+    {
+        cout << wind_speed << setw(10);
+    }
+    cout << "\n";
 
     // display table of data
     while (temp_i <= 50.0)
@@ -31,9 +38,9 @@ int main()
                      << 35.74 + 0.6215 * temp_i - 35.75 * pow(30, 0.16) + 0.4275 * temp_i * pow(30, 0.16) << setw(10)
                      << 35.74 + 0.6215 * temp_i - 35.75 * pow(35, 0.16) + 0.4275 * temp_i * pow(35, 0.16) << setw(10)
                      << 35.74 + 0.6215 * temp_i - 35.75 * pow(40, 0.16) + 0.4275 * temp_i * pow(40, 0.16) << setw(10)
-                     << 35.74 + 0.6215 * temp_i - 35.75 * pow(45, 0.16) + 0.4275 * temp_i * pow(45, 0.16) << setw(10);
-
-                cout << "STOP" << endl;
+                     << 35.74 + 0.6215 * temp_i - 35.75 * pow(45, 0.16) + 0.4275 * temp_i * pow(45, 0.16) << setw(10)
+                     << endl;
+                
                 temp_i += 5;
                 break;
             
@@ -51,9 +58,9 @@ int main()
                      << 35.74 + 0.6215 * temp_i - 35.75 * pow(30, 0.16) + 0.4275 * temp_i * pow(30, 0.16) << setw(10)
                      << 35.74 + 0.6215 * temp_i - 35.75 * pow(35, 0.16) + 0.4275 * temp_i * pow(35, 0.16) << setw(10)
                      << 35.74 + 0.6215 * temp_i - 35.75 * pow(40, 0.16) + 0.4275 * temp_i * pow(40, 0.16) << setw(10)
-                     << 35.74 + 0.6215 * temp_i - 35.75 * pow(45, 0.16) + 0.4275 * temp_i * pow(45, 0.16) << setw(10);
-
-                cout << "STOP" << endl;
+                     << 35.74 + 0.6215 * temp_i - 35.75 * pow(45, 0.16) + 0.4275 * temp_i * pow(45, 0.16) << setw(10)
+                     << endl;
+                
                 temp_i += 5;
         }
         
