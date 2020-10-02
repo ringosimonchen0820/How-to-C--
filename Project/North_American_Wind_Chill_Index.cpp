@@ -11,6 +11,8 @@ int main()
     int wind_speed;
     
     // header
+    cout << "Temp: " << setfill('-') << setw(39) << '-' << "Wind Speed" << setw(39) << '-' << endl;
+    cout << setfill(' ') << fixed;
     cout << setw(14);
     for (wind_speed = 5; wind_speed <= 45; wind_speed += 5)
     {
