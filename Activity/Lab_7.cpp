@@ -5,8 +5,10 @@ using namespace std;
 
 int main()
 {
+    // import files
     ifstream inf("FleetInput.txt");
 
+    // Create variables
     string  id;
     int     FLT_MAX ;
     float   miles,
