@@ -20,6 +20,11 @@ int main()
     return 0;
 }
 
+//*********************************************************
+//* Definition of function displayValue.                  *
+//* I uses an integer parameter whose value is displayed. *
+//*********************************************************
+
 void displayValue (int num)
 {
     cout << "The value is " << num << endl;
