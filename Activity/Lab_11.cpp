@@ -15,7 +15,6 @@ string getZip( string &input );
 void buildLine( string name, string SSN, string phone, string addr, string city, string state, string zip, ostream &fout );
 
 int main()
-
 {
     string input, name, SSN, phone, addr, city, state, zip;
     ifstream fin;
