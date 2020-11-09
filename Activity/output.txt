@@ -1,0 +1,11 @@
+Smith,John,1659-80-076,8148-337-965,3rd & State St,Erie,PA,16506
+Gardner,Martin,1649-05-543,4403-542-700,5244 Heisley Rd,Mentor,OH,44123
+Vendetti,Sarah,1648-79-987,3302-541-122,29 Millhaven St.,Akron,OH,44532
+Golumbiewski,Judy,1944-09-976,7163-347-654,6187 Fillmore Ave,Rochester,NY,07654
+Merz,Terry,1939-76-554,8002-435-799,19876 Elm Avenue,Manchester,MO,63166
+Jones,Kenisha,1984-32-265,9193-610-419,902 East Taylor Rd,Apex,NC,27709
+Yee,Phil,1764-09-976,6308-602-682,1976 Wacker Drive,Chicago,IL,60191
+Caron,Jean,1674-53-321,9738-874-700,1429 Delben Street,Whippany,NJ,07981
+Alicea,Sandy,1764-19-006,3054-428-202,12 La Habana East,Miami,FL,33134
+Williams,Rob,2063-37-765,3342-715-450,9854 Fremont Blvd,Montgomery,AL,36109
+Hilfiger,Jancy,2018-76-987,8148-817-654,3012 State St,Pittsburgh,PA,15011
