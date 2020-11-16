@@ -10,30 +10,42 @@
 
 
 #include <iostream>
-#include <iomanip> 
 #include <ctime>
+#include <iomanip> //to display formatted output
 using namespace std;
 
 int main()
 {
-    const int SIZE = 50;
+    //declare constant variable
+    const int SIZE=50;
+    //declare array
     int arr[SIZE];
 
-    // Initialize all the elements of array with random values seed rand()
-    srand (time(NULL));
-    for (int i = 0; i < SIZE; i++) {
-        // rand() will generate random values
+    //initialize all the elements of array with random values
+    srand(time(NULL));
+    for(int i=0;i<SIZE;i++){
+        //rand() will generate random values
         arr[i]=rand();
-    }
     
-    int count = 1; // Displaying 10 elements in one line
+    }
+    int count=1; //for displaying 10 elements in one line
 
-    for (int i = 0; i < SIZE; i++) {
-        if(count == 11) {
+    //traverse the elements of array from 0 to 49
+    for(int i=0;i<SIZE;i++){
+
+        //if displayed 10 elements in a line
+        if(count==11){
+            //display the next element in a new line
+            //setw(11) will display the element within 11 column
+            //setw sets the width of the field assigned for the output
             cout<<"\n"<<setw(11)<<arr[i]<<" ";
-            count = 2;
-        } else {
-            cout << setw(11) << arr[i] <<" ";
+            //since one element of the new line displayed set count to 2
+            count=2;
+        }
+        //if have not yet displayed 10 elements in a line
+        else{
+            cout<<setw(11)<<arr[i]<<" ";
+            //increment count
             count++;
         }
     }
