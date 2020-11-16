@@ -19,33 +19,35 @@
 #include<iostream>
 #include<fstream>
 using namespace std;
-
-struct Part {
+//DECLARATION IF THE STRUCTURE WITH THE REQUIRED FIELDS
+struct Part{
     string number,name;
     char c;
     int numInStock;
     double unitPrice;
 };
-
-int main()
-{
+int main(){
+   //CREATING 100 PARTS
     struct Part p[100];
-    int n = 0,i;
+    int n=0,i;
     char ch;
-    do {
-    cout << "Enter part information (part number, name, class, on hand balance and price):" << endl;
-    cin >> p[n].number >> p[n].name >> p[n].c >> p[n].numInStock >> p[n].unitPrice;
-    cout << "\nMore parts? Y or N\n";
-    cin >> ch;
+    do{
+    cout<<"Enter part information (part number, name, class, on hand balance and price):"<<endl;
+    //store the data into the structure
+    cin>>p[n].number>>p[n].name>>p[n].c>>p[n].numInStock>>p[n].unitPrice;
+    //check if the user wish to continue
+    cout<<"\nMore parts? Y or N";
+    cin>>ch;
     n++;
-    } while(ch == 'Y' || ch == 'y');
-
-    ofstream output("partInfor.txt");
-    for (i = 0; i < n; i++) {
-    output << p[i].number << "\t" << p[i].name << "\t" << p[i].c << "\t" << p[i].numInStock << "\t" << p[i].unitPrice << endl;
+    }while(ch=='Y'||ch=='y');
+    //creat a output stream
+    ofstream output("PartListOutput.txt");
+    //print the data to the output
+    for(i=0;i<n;i++){
+    output<<p[i].number<<"\t"<<p[i].name<<"\t"<<p[i].c<<"\t"<<p[i].numInStock<<"\t"<<p[i].unitPrice<<endl;
     }
-
-    cout << "\n...Data is saved into file 'partInfor.txt' Successfully...";
+    //display status message
+    cout<<"\n...Data is saved into file 'PartListOutput.txt' Successfully...";
     output.close();
 
     return 0;
