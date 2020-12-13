@@ -3,6 +3,7 @@
 #include<fstream>
 #include<vector>
 using namespace std;
+
 //Prototypes
 // fills vectors
 bool get_data(vector <string>& part_number, vector <char>& part_class, vector <int>& part_ohb, vector <double>& part_cost);
@@ -215,4 +216,4 @@ void put_data(const vector <string>& part_number, const vector <char>& part_clas
        }
 
    }
-}
+}   
